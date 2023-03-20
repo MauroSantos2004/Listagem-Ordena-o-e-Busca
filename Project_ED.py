@@ -98,7 +98,7 @@ lista.enumeração()
 lista.remover('Aaron')
 lista.enumeração()
 
-pessoa_preocurada = ('William')
+pessoa_preocurada = input('Quem deseja procurar: ').strip().title()
 indice = lista.busca_linear(pessoa_preocurada)
 if indice != -1:
     print(f"{pessoa_preocurada} está na lista! Sua posição é {indice+1}!")
